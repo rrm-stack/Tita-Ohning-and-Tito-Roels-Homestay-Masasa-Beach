@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
+    "@tailwindcss/vite": "latest",
+    "tailwindcss": "latest",
     "vite": "latest",
     "react": "latest",
     "react-dom": "latest",
