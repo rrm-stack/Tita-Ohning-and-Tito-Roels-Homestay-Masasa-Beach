@@ -83,7 +83,13 @@ export default function App() {
     try {
       await signInWithEmailAndPassword(auth,ownerEmail.trim(),ownerPassword);
       setOwnerPassword(""); setLoginOpen(false); setSettingsOpen(true);
-    } catch (err) { console.error(err); setLoginError("Invalid email or password."); }
+    } catch (err) {
+  console.error("Firebase login error:", err);
+
+  setLoginError(
+    `${err.code}: ${err.message}`
+  );
+}
     finally { setLoginLoading(false); }
   };
   const handleLogout = async () => { await signOut(auth); setOwnerEdit(false); setSettingsOpen(false); };
