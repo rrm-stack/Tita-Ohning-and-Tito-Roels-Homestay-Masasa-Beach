@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyABCu-q47fz-FMh1p5mBIF0aBaGHQG-7Tw",
+  apiKey: "AIzaSyABcU-q47fz-FMh1p5mBIF0aBaGHQG-7Tw",
   authDomain: "masasa-beach-homestay.firebaseapp.com",
   projectId: "masasa-beach-homestay",
   storageBucket: "masasa-beach-homestay.firebasestorage.app",
