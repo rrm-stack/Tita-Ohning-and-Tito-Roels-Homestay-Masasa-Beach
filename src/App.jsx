@@ -121,7 +121,7 @@ export default function App() {
     <header className="relative overflow-hidden bg-gradient-to-r from-cyan-700 via-sky-600 to-blue-700 text-white">
       <div className="relative max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-8 items-center">
         <motion.div initial={{opacity:0,y:15}} animate={{opacity:1,y:0}}>
-          <div className="flex items-center gap-2 text-cyan-100 font-medium mb-3"><Palmtree size={19}/> Feel at home by the beach</div>
+          <div className="flex items-center gap-2 text-cyan-100 font-medium mb-3"><Palmtree size={19}/> A homestay providing a cozy accommodation experience at Masasa Beach</div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Tita Ohning & Tito Roel's<br/>Homestay</h1>
           <p className="mt-4 text-cyan-50 text-lg">Masasa Beach · San Juan, Tingloy, Batangas</p>
           <div className="mt-5 flex items-center gap-2 text-sm"><MapPin size={17}/> Masasa Beach, Tingloy, Batangas</div>
